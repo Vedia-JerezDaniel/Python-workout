@@ -11,3 +11,4 @@ If invoked without any arguments, returns 0.
     for number in numbers:
         output += number
     return output
+

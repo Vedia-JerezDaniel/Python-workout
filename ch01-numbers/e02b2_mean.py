@@ -8,3 +8,15 @@ def mean(numbers):
 Returns the mean of those numbers.
 """
     return sum(numbers) / len(numbers)
+
+
+def running():
+    tn = []
+    for i in range(4):
+        n = float(input('Enter your 10 Running time score: '))
+        print(f'{i+1}st Running time {n}')
+        tn.append(n)
+    print(f'Running monthly mean time {mean(tn):.2f} over {len(tn)} days') 
+
+
+running()
